@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>팝업 갤러리</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+    
+    <!-- 제이쿼리 라이브러리 연결 -->
+    <script src="js/jquery-3.6.4.js"></script>
+
+    <!-- 외부 css 파일 연결 -->
+    <link rel="stylesheet" href="css/popup.css" type="text/css">
+    
+
+    <!-- 외부 js 파일 연결 -->
+    <script src="js/popup.js"></script>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="overly" id="over">
+           <div class="show" id="show">
+              <i class="fa fa-close close" id="close"></i>
+              <img id="imgshow" src="" alt="">
+           </div>
+        </div>
+        <div class="container">
+            <!-- 이미지 넣기 -->
+            <img src="img/pop1.png" class="img" alt="pop">
+            <img src="img/pop2.png" class="img" alt="pop">
+            <img src="img/pop3.png" class="img" alt="pop">
+            <img src="img/pop4.png" class="img" alt="pop">
+        </div>
+    </div>
+</body>
+</html>
